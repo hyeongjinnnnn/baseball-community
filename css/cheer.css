@@ -1,0 +1,58 @@
+#cheer_box { color: white; position: fixed; top: 50%; left: 50%; 
+    transform: translate(-50%, -50%); width: 80%; }
+#cheer_box #cheer_box_cover { position: fixed; width: 100%; height: 100%; background-color: black; opacity: 70%; }
+#cheer_title { margin: 20px 0 0 0; padding-bottom: 5px;	border-bottom: solid 2px #ffbe10;
+     position: relative; text-align: center; }
+#cheer_title span {	font-size: 20px; font-weight: bold; font-weight: 300; font-size: 25px; font-family: 'roboto';}
+#cheer_content { width: 100%; position: relative; display: flex; justify-content: space-evenly; margin: 30px 0 30px 0; }
+
+.cheer_card {
+    width: 15%;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    background-color: black;
+    text-align: center;
+    cursor: pointer;
+}
+
+.team_logo {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto 10px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.team_logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.cheer_card h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.cheer_count {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.cheer_button {
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 20px;
+    background-color: #ffbe10;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.cheer_button:hover {
+    background-color: #ffa500;
+}

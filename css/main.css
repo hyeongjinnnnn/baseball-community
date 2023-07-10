@@ -1,0 +1,44 @@
+/* 동영상 및 설명 */
+section.intro .title { position: absolute; top: 30%; left: 15%; color: white; background-color: black;  
+    opacity: 60%; padding-bottom: 1rem; width: 900px; } 
+section.intro .title h1 { font-weight: 800; font-size: 60px; padding: 1rem 0 1rem 2rem; }
+section.intro .title h2 { font-weight: 700; font-size: 30px; padding-left: 10rem; padding-bottom: 2rem; }
+section.intro .title p { font-weight: 700; padding: 0 2rem 1rem 2rem; } 
+
+/* 야구 경기 결과 */
+.baseballResult { width: 60%; align-self: flex-end; margin-left: auto; background: white; margin-top: -8rem; padding: 4rem; padding-bottom: 2   rem; position: relative; z-index: 2; } 
+.baseballResult h1 { font-size: 40px; font-weight: 800; padding-bottom: 1.5rem; }
+.baseballResult p { font-size: 20px; padding-bottom: 1rem; }
+
+/* 메인 콘텐트 */
+.sec { padding-bottom: 80px; }
+#main_content { position: relative; width: 1000px; height: 240px; margin: auto; 
+    margin-top: 80px; padding-bottom: 80px; display: flex; align-items: center; justify-content: center;}
+#latest { position: relative; align-self: center; }
+#latest h4 { width: 500px; font-family: "Roboto"; font-size: 25px; font-weight: 800; padding-bottom: 5px; border-bottom: solid 1px #dddddd; }
+#latest ul { margin-top: 20px; }
+#latest li { margin-top: 8px; margin-left: 10px; }
+#latest span { display: inline-block; }
+#latest span:nth-child(1) { width: 280px; }
+#latest span:nth-child(2) { width: 100px; }
+#latest span:nth-child(3) { width: 100px; }
+
+section .play {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+section .play .game-line {
+    border: 1px solid black; 
+    align-items: center;
+    justify-self: center;    
+    color: #000;
+    display: grid;
+    grid-template-columns: 2fr 4em 8em 4em 2fr;
+    text-decoration: none;
+    width: 600px;
+    height: 70px;
+    margin-bottom: 10px;
+    pointer-events: none;
+    padding-left: 20px;
+}

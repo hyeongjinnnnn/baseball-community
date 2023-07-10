@@ -1,0 +1,59 @@
+/* 게시판 글쓰기(board_form.php) */
+#board_box { color: white; position: fixed; top: 50%; left: 50%; 
+    transform: translate(-50%, -50%); width: 800px; }
+#board_box #board_box_cover { position: fixed; width: 100%; height: 100%; background-color: black; opacity: 80%; }
+#board_box h3 { font-family: "Roboto"; color: white; margin-top: 30px; padding-bottom: 20px; 
+    border-bottom: solid 2px #516e7f; font-size: 20px; text-align: center; position: relative;}
+#board_form span { display: inline-block; position: relative; }
+#board_form .col1 { width: 150px; position: relative; }
+#board_form li { padding: 12px; border-bottom: solid 1px #dddddd; position: relative; }
+#board_form input { width: 500px; height: 25px; font-weight: bold; font-size: 16px; }
+#board_form textarea { width: 500px; height: 130px; font-weight: bold; font-size: 16px; }
+#board_form #text_area { position: relative;	height: 158px; position: relative; }
+#board_form #text_area .col1 { position: absolute; top: 10px; }
+#board_form #text_area .col2 { position: absolute; left: 166px; }
+#board_box .buttons { text-align: right; margin: 20px 40px 40px 0; position: relative; }
+#board_box .buttons li { display: inline; }
+#board_box .buttons button { padding: 5px 10px; cursor: pointer; }
+/* 게시판 목록보기(board_list.php) */
+#board_list {position: relative;}
+#board_list li { padding: 10px 0; border-bottom: solid 1px #dddddd; }
+#board_list span { display: inline-block; text-align: center;}
+#board_list .col1 { width: 80px; }
+#board_list .col2 { width: 330px; text-align: left; }
+#board_list .col2 a { color: white; }
+#board_list .col2 a:hover { text-decoration: underline; }
+#board_list .col3 { width: 100px; }
+#board_list .col4 { width: 40px; }
+#board_list .col5 { width: 180px; }
+#board_list .col6 { width: 40px; }
+#page_num {	text-align: center;	margin: 30px 0; position: relative; color: white; }
+#page_num li { display: inline; color: white;}
+#page_num a {color: white;}
+/* 게시판 내용보기(board_view.php) */
+#board_box { width: 800px; margin: 0 auto; }
+#board_box #board_top .buttons { padding: 0; margin: 15px 15px 0 0; }
+#board_box #board_top .title { padding: 0 0 10px 0; margin: 0;}
+#board_box .title { margin-top: 30px; padding: 10px; border-bottom: solid 2px #516e7f; font-size: 20px; }
+#view_content li:nth-child(1) {	padding: 15px; border-bottom: solid 1px #aaaaaa; position: relative;}
+#view_content .col2 { float: right; }
+#view_content li:nth-child(2) {	padding: 15px 15px 80px 15px; border-bottom: solid 1px #cccccc; position: relative;}
+/*#view_content li:nth-child(3) button { padding: 5px 20px; margin: 15px 0 40px 720px; cursor: pointer; position: relative;}*/
+#view_content #view_content_con { padding: 15px 15px 80px 15px; height: 300px; position: relative; 
+    overflow: auto; border-bottom: solid 1px #aaaaaa;}
+
+/* 댓글쓰기&댓글보기 */
+#view_content #view_content_comment { position: relative; padding: 15px 15px 80px 15px; overflow: auto; height: 200px;}
+#view_content #view_content_comment_write { position: relative; padding: 15px 15px 15px 15px; }
+#view_content li { padding: 15px 15px 15px 15px; border-bottom: solid 1px #cccccc; position: relative;}
+#view_content input { margin-left: 20px; width: 400px; }
+#view_content button {margin: 0; padding: 0; margin-left: 2px; width: 50px;}
+
+.comment { border-bottom: 1px solid #ccc; padding: 10px; margin-bottom: 10px; }
+.comment .col1 { font-weight: bold; }
+.comment .col2 { color: #999; } 
+.comment p { margin-top: 5px; }
+.comment form {margin-top: 10px;}
+.comment button { margin: 0; padding: 0;  }
+
+

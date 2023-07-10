@@ -1,0 +1,18 @@
+
+/* 가입 양식 폼 */
+#join_box {	color: white; position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); 
+    width: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center; }
+#join_box #join_box_cover { position: fixed; width: 100%; height: 100%; background-color: black; opacity: 80%; }
+
+#join_box h2 { 	border-bottom: solid 1px #dddddd; padding-top: 20px; padding-bottom: 20px; position: relative; text-align: center;}
+#join_box .col1 { float: left;	width: 110px; position: relative; }
+#join_box .col2 { float: left;	width: 400px; position: relative; }
+#join_box .col3 { float: left; position: relative; }
+#join_box .form input { width: 390px; height: 22px; }
+#join_box .form select { padding: 2px; }
+#join_box .form { height: 38px; display: flex; align-items: center;}
+#join_box .id {	margin-top: 20px; }
+#join_box input[name=email1] { width: 100px; position: relative;}
+#join_box input[name=email2] { width: 275px; position: relative;}
+#join_box .bottom_line { margin-top: 10px;	border-bottom: solid 1px #cccccc; position: relative; }
+#join_box .buttons { text-align: right;	margin:20px 0 10px 0;position: relative; }
